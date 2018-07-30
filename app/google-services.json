@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "849234078164",
+    "firebase_url": "https://motoreinsure-49493.firebaseio.com",
+    "project_id": "motoreinsure-49493",
+    "storage_bucket": "motoreinsure-49493.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:849234078164:android:a8258b2501edf391",
+        "android_client_info": {
+          "package_name": "com.example.magdalena.motore_insure"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "849234078164-apa7fpe43bp9p79m1eanatal8i4fb46a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.magdalena.motore_insure",
+            "certificate_hash": "cf81c5f290225273e2e6a25bcf92c287e0dab522"
+          }
+        },
+        {
+          "client_id": "849234078164-9mv25olfb253h9uko9i0uh3jpj2pf1ng.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzogiuveS8aR2fxnerojlYgyYABkfXWv4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "849234078164-9mv25olfb253h9uko9i0uh3jpj2pf1ng.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

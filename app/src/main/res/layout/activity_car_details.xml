@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="5dp"
+    android:layout_centerInParent="true"
+    android:layout_height="match_parent">
+
+
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_alignParentTop="true"
+
+        android:gravity="center"
+        android:text="ENTER CAR DETAILS"
+        android:textColor="@android:color/holo_blue_bright"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editText12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="65dp"
+        android:ems="10"
+
+        android:inputType="textPersonName"
+        android:hint="Name Of PlaceHolder" />
+
+    <EditText
+        android:id="@+id/editText13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText12"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Policy Number" />
+
+    <EditText
+        android:id="@+id/editText15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText13"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Car Registration Number" />
+
+    <EditText
+        android:id="@+id/editText16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editText18"
+        android:ems="10"
+        android:hint="Gross Weight"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editText18"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editText20"
+        android:ems="10"
+        android:hint="Seating Capacity"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editText20"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="182dp"
+        android:ems="10"
+        android:hint="Start Date"
+        android:inputType="date" />
+
+
+    <EditText
+        android:id="@+id/editText21"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText20"
+        android:layout_marginTop="-182dp"
+        android:ems="10"
+        android:hint="End Date"
+        android:inputType="date" />
+
+    <EditText
+        android:id="@+id/compan"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="207dp"
+        android:ems="10"
+        android:hint="Vehicle MAKE"
+        android:inputType="textPersonName" />
+
+
+        <Button
+        style="@android:style/Widget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="16dp"
+        android:background="@android:color/background_dark"
+        android:text="REGISTER"
+        android:id="@+id/button"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+
+        android:id="@+id/Vehicle_mak"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:hint="Insurance Company"
+        android:layout_below="@+id/editText21" />
+
+</RelativeLayout>

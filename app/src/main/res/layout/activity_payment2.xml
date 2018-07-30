@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".payment2Activity">
+
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#ba4a00"
+        android:layout_marginBottom="105dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        style="@android:style/Widget"
+        android:text="SUBMIT PAYMENT" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        android:background="@android:color/black"
+        android:gravity="center"
+        android:text="PAY WITH MOBILE MONEY"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="93dp"
+        android:layout_marginLeft="93dp"
+        android:layout_marginTop="73dp"
+        android:text="Premium Amount"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView13"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="277dp"
+        android:text="Enter Pin"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:layout_alignLeft="@+id/textView13"
+        android:layout_marginLeft="38dp" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView13"
+        android:layout_marginStart="65dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="UGX 75000"
+        android:inputType="number"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="65dp"
+        android:layout_alignParentLeft="true" />
+
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/editText4"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-14dp"
+        android:layout_marginBottom="205dp"
+        android:ems="10"
+        android:inputType="numberPassword"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_alignLeft="@+id/editText4"
+        android:layout_marginLeft="-14dp" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="92dp"
+        android:layout_marginLeft="92dp"
+        android:layout_marginTop="183dp"
+        android:text="Enter Phone number"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editText8"
+        android:layout_width="238dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/editText4"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-12dp"
+        android:layout_marginTop="213dp"
+        android:ems="10"
+        android:inputType="phone"
+        android:layout_alignLeft="@+id/editText4"
+        android:layout_marginLeft="-12dp" />
+</RelativeLayout>

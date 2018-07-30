@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#264FBF"
+    >
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="14dp"
+        android:src="@drawable/image" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="241dp"
+        android:text="Motor E-Insure"
+        android:textColor="@android:color/white"
+        android:textSize="30sp"
+        android:textStyle="italic|bold" />
+
+    <Button
+        android:id="@+id/x"
+        android:text="Signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="100dp"
+        android:textStyle="bold"
+
+        android:textSize="20sp"
+        android:textColor="#3F1FDD"
+        android:layout_marginStart="33dp"
+        android:layout_marginLeft="33dp" />
+
+    <Button
+        android:id="@+id/xx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/x"
+        android:text="Login"
+
+        android:textSize="20sp"
+        android:textColor="#3F1FDD"
+        android:textStyle="bold"
+        android:layout_marginEnd="27dp"
+        android:layout_marginRight="27dp"
+        android:layout_alignParentRight="true" />
+
+</RelativeLayout>

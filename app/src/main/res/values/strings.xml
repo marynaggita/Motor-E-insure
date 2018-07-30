@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Motor E-Insure</string>
+    <string name="have_an_account_already_click_to_login">HAVE AN ACCOUNT ALREADY,CLICK TO LOGIN</string>
+    <string name="register_now">REGISTER NOW</string>
+    <string name="password">password</string>
+    <string name="get_started">GET STARTED</string>
+    <string name="email">Email</string>
+    <string name="Username">Username</string>
+    <string name="motor">Motor driver</string>
+    <string name="pay_with_mtn_mobile_money_money">PAY WITH MTN MOBILE MONEY MONEY</string>
+    <string name="pay_with_airtel_money">PAY WITH AIRTEL MONEY</string>
+
+
+    <string name="enter_the_car_details">ENTER THE CAR DETAILS</string>
+    <string name="username">Username</string>
+    <string name="password1">Password</string>
+    <string name="login">LOGIN</string>
+    <string name="keep_me_signed_in">Keep me signed in</string>
+    <string name="userna">Username</string>
+    <string name="reg">Registrationn</string>
+
+    <string-array name="company">
+        <item>Select your preferred  Company </item>
+        <item>StateWide Insurance Company Limited</item>
+        <item>Excel Insurance Company Limited</item>
+        <item>AIP Insurance Company Limited</item>
+        <item>Jubilee Insurance Company Limited</item>
+
+    </string-array>
+
+    <string-array name="Vehicle_make">
+        <item>Select your Vehicle MAKE </item>
+        <item>jeep</item>
+        <item>Mercedes Benz</item>
+        <item>Lexus</item>
+        <item>Mitsubishi</item>
+        <item>Range Rover</item>
+        <item>Suzuki</item>
+        <item>Tata</item>
+        <item>Fuso</item>
+        <item>Hammer</item>
+        <item>Ford</item>
+        <item>Bajaj</item>
+        <item>BMW</item>
+        <item>Land Rover</item>
+        <item>Isuzu</item>
+        <item>Honda</item>
+        <item>Toyota</item>
+        <item>Nissan</item>
+        <item>Subaru</item>
+
+    </string-array>
+</resources>

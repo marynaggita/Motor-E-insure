@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PaymentActivity">
+
+    <Button
+        android:id="@+id/mtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="62dp"
+        style="@android:style/Widget"
+        android:textStyle="bold"
+        android:background="#008000"
+        android:textSize="25sp"
+        android:text="Pay With MTN Mobile Money" />
+
+    <Button
+        android:id="@+id/airtel"
+        style="@android:style/Widget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ba4a00"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="122dp"
+        android:text="Pay With Airtel Money" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignBottom="@+id/textView17"
+        android:layout_alignParentEnd="true"
+        android:background="@android:color/darker_gray"
+        android:ems="10"
+        android:gravity="center"
+        android:hint=" eg. UAX 111A"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:layout_alignParentTop="true"
+        android:textSize="20sp"
+        android:background="@android:color/black"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text="PAY WITH MOBILE MONEY" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="148dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:textColor="@android:color/black"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="121dp"
+        android:text="Car Registration No."
+
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="202dp"
+        android:text="Vehicle-MAKE"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="97dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:text="Preferred Company"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="230dp"
+        android:layout_height="46dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="194dp">
+
+    </Spinner>
+
+    <Spinner
+        android:id="@+id/sweet"
+        android:layout_width="210dp"
+        android:layout_height="49dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/textView19">
+
+    </Spinner>
+
+</RelativeLayout>

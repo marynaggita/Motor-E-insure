@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SelectionActivity"
+    android:background="@android:color/holo_blue_bright"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose if you are a driver or a traffic officer"
+        android:background="@android:color/white"
+        android:textColor="@android:color/black"
+        android:textSize="30sp"
+
+        android:layout_alignParentTop="true" />
+
+    <Button
+        style="@android:style/Widget"
+        android:id="@+id/btn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/black"
+        android:layout_alignParentTop="true"
+
+        android:layout_marginTop="112dp"
+        android:text="@string/motor"
+        android:textColor="@android:color/white"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <Button
+        style="@android:style/Widget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn2"
+        android:background="@android:color/black"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="208dp"
+        android:text="Traffic officer"
+        android:textColor="@android:color/white"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

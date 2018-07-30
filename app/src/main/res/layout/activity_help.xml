@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HelpActivity">
+
+    <TextView
+        android:id="@+id/r"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Help"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="520dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/r"
+        android:text="What is Motor Third Party Insurance?
+Motor Third Party Insurance (MTPI) provides compensation to Third Parties (as defined below) who suffer death or bodily injury caused by or arising out of the use of a vehicle on the road. It was set up by an Act of Parliament (Motor Vehicle Insurance (Third Party Risks) Act 1989 (Ch 214)), revised in 2000.
+
+Who is a Third Party?
+All road users including pedestrians, cyclists, vehicle occupants and passengers in other vehicles excluding the vehicle owner, his/her immediate family members and employees.
+What was the purpose of the law?
+To provide an affordable social protection to the public road users. The motor vehicle owner is protected against potentially catastrophic effects of an adverse judgement, whereas the victim is assured of quick compensation."
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/ex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="36dp"
+        android:layout_marginStart="12dp"
+        android:text="Read more"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@android:color/white"
+        android:textStyle="bold|italic"
+        android:layout_marginLeft="12dp" />
+
+</RelativeLayout>

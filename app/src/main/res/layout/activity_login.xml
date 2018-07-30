@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    android:id="@+id/rootLayout"
+    android:layout_centerInParent="true"
+    tools:context=".Login"
+    android:background="#ffff">
+
+    <EditText
+        android:id="@+id/user"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="73dp"
+        android:background="@android:color/holo_blue_dark"
+        android:ems="10"
+        android:padding="10dp"
+        android:hint="Email"
+        android:textStyle="bold"
+        android:inputType="textPersonName"
+
+        android:textColorHint="@android:color/white" />
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:padding="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="153dp"
+        android:background="@android:color/holo_blue_dark"
+       android:textStyle="bold"
+        android:ems="10"
+        android:hint="@string/password1"
+        android:inputType="textPassword"
+        android:textColorHint="@android:color/white" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/keep_me_signed_in"
+        android:checked="false"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:id="@+id/checkbox"
+        android:layout_marginTop="231dp" />
+
+    <Button
+        android:id="@+id/log"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="202dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="@string/login"
+        android:textColor="@android:color/white"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/reg"
+        style="@android:style/Widget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="59dp"
+        android:textStyle="bold"
+        android:text="Create an account here"
+        android:textSize="20sp" />
+
+
+
+</RelativeLayout>
